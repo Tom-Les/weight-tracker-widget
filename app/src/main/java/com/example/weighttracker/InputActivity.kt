@@ -14,8 +14,6 @@ import kotlin.concurrent.thread
 
 class InputActivity : Activity() {
 
-    // TODO: PASTE YOUR DEPLOYED GOOGLE SCRIPT WEB APP URL HERE
-    // It should look like: https://script.google.com/macros/s/.../exec
     private val scriptUrl = "https://script.google.com/macros/s/AKfycbwXnD12T_ol0q2-87cy6Ul4BsjppHsnbtpSoN-1RMmHMuRAZ3ZYHEu7ErdpwfTE0vL-bQ/exec"
 
     override fun onCreate(savedInstanceState: Bundle?) {
