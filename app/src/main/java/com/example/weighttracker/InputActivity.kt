@@ -14,7 +14,8 @@ import kotlin.concurrent.thread
 
 class InputActivity : Activity() {
 
-    private val scriptUrl = "https://script.google.com/macros/s/AKfycbwXnD12T_ol0q2-87cy6Ul4BsjppHsnbtpSoN-1RMmHMuRAZ3ZYHEu7ErdpwfTE0vL-bQ/exec"
+//    private val scriptUrl = "https://script.google.com/macros/s/AKfycbwXnD12T_ol0q2-87cy6Ul4BsjppHsnbtpSoN-1RMmHMuRAZ3ZYHEu7ErdpwfTE0vL-bQ/exec"
+    private val scriptUrl = BuildConfig.API_URL
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
